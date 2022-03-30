@@ -1,13 +1,16 @@
-pkgbase = nodejs-jsdoc
+pkgbase = jsdoc
 	pkgdesc = An API documentation generator for JavaScript
-	pkgver = 3.6.7
-	pkgrel = 1
-	url = https://github.com/jsdoc3/$_name
+	pkgver = 3.6.10
+	pkgrel = 2
+	url = https://github.com/jsdoc3/jsdoc
 	arch = any
 	license = APACHE
 	makedepends = npm
 	depends = nodejs
-	source = https://registry.npmjs.org/jsdoc/-/jsdoc-3.6.7.tgz
-	sha256sums = c081fb764e73565c2fbc5cfb559c3d0a6a3d82d337dcf146ece76a2ea17b99b8
+	provides = nodejs-jsdoc
+	conflicts = nodejs-jsdoc
+	replaces = nodejs-jsdoc
+	source = https://registry.npmjs.org/jsdoc/-/jsdoc-3.6.10.tgz
+	sha512sums = 21d43ca694a8e4b299f68dccf8b28820af22d340c87b99ac0ef1b71bcd4a9bed5d872d17ace583d098bc1fad44960c848ff3bd2912e892029b00cf575fd08902
 
-pkgname = nodejs-jsdoc
+pkgname = jsdoc

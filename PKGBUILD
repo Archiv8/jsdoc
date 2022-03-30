@@ -15,11 +15,14 @@
 
 pkgname="jsdoc"
 pkgver=3.6.10
-pkgrel=1
+pkgrel=2
 pkgdesc="An API documentation generator for JavaScript"
 url="https://github.com/jsdoc3/$pkgname"
 arch=("any")
 license=("APACHE")
+provides=("nodejs-jsdoc")
+conflicts=("nodejs-jsdoc")
+replaces=("nodejs-jsdoc")
 depends=("nodejs")
 makedepends=("npm")
 source=("https://registry.npmjs.org/$pkgname/-/$pkgname-$pkgver.tgz")
