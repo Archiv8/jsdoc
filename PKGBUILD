@@ -5,19 +5,19 @@
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
 # shellcheck disable=SC2034,SC2154
-# ToDo: Add files: User documentation
-# ToDo: Add files: Tooling
-# FixMe: Namcap warnings and errors
-# FixMe: Add code to clean JavaScript code. see https://wiki.archlinux.org/title/Node.js_package_guidelines
+# [ToDo]: Add files: User documentation
+# [ToDo]: Add files: Tooling
+# [FixMe]: Namcap warnings and errors
+# [FixMe]: Add code to clean JavaScript code. see https://wiki.archlinux.org/title/Node.js_package_guidelines
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
 # Contributor: Ross Clark <archiv8@artisteducator.com>
 
 pkgname="jsdoc"
 pkgver=3.6.10
-pkgrel=2
+pkgrel=3
 pkgdesc="An API documentation generator for JavaScript"
-url="https://github.com/jsdoc3/$pkgname"
+url="https://github.com/jsdoc/jsdoc"
 arch=("any")
 license=("APACHE")
 provides=("nodejs-jsdoc")
